@@ -73,4 +73,20 @@ Flyweight Pattern
 Proxy Pattern
 
  ** Adapter Pattern**<br>
-The Adapter Pattern acts as a bridge between two incompatible interfaces, enabling them to work together without modifying their existing code.
+The Adapter Pattern is a structural design pattern that enables objects with incompatible interfaces to collaborate by providing a wrapper or adapter. This pattern is crucial when you want to integrate legacy code or third-party libraries into your current system without altering their source code.
+
+**Adapter Pattern in Detail**<br>
+The Adapter Pattern is a structural design pattern that enables objects with incompatible interfaces to collaborate by providing a wrapper or adapter. This pattern is crucial when you want to integrate legacy code or third-party libraries into your current system without altering their source code.
+
+**Core Components of the Adapter Pattern**<br>
+Target (Protocol or Interface)
+Defines the domain-specific interface that the client uses.
+
+**Client**
+Works with objects through the Target interface.
+
+**Adaptee**
+Has an existing interface that needs to be adapted to fit the Target interface.
+
+**Adapter**
+Acts as a bridge by implementing the Target interface and internally using the Adaptee to fulfill the request.
