@@ -58,3 +58,19 @@ Complexity: Introduces additional layers of abstraction, which may be overkill f
 Overhead: If the creation logic is trivial, a factory may unnecessarily complicate the code.
 
  */
+
+**Structural Design Patterns in Swift**
+
+Structural Design Patterns focus on how classes and objects are composed to form larger structures while ensuring flexibility and efficiency. These patterns help organize relationships between entities to achieve more reusable, scalable, and maintainable code.
+
+**List of Structural Design Patterns**<br>
+Adapter Pattern
+Bridge Pattern
+Composite Pattern
+Decorator Pattern
+Facade Pattern
+Flyweight Pattern
+Proxy Pattern
+
+ ** Adapter Pattern**<br>
+The Adapter Pattern acts as a bridge between two incompatible interfaces, enabling them to work together without modifying their existing code.
