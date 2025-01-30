@@ -1,17 +1,23 @@
 Category	Design Pattern	Description
-Creational	Singleton	Ensures a class has only one instance and provides a global point of access to it.
+
+Creational	
+        Singleton	Ensures a class has only one instance and provides a global point of access to it.
 	Factory Method	Defines an interface for creating an object but lets subclasses alter the type of objects created.
 	Abstract Factory	Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 	Builder	Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
 	Prototype	Specifies the kinds of objects to create using a prototypical instance and creates new objects by copying this prototype.
-Structural	Adapter	Allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects.
+Structural	
+        Adapter	Allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects.
 	Bridge	Separates an object’s abstraction from its implementation so that the two can vary independently.
 	Composite	Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
 	Decorator	Adds behavior to objects dynamically without affecting the behavior of other objects from the same class.
 	Facade	Provides a simplified interface to a complex subsystem.
 	Flyweight	Reduces the cost of creating and manipulating a large number of similar objects by sharing as much data as possible.
 	Proxy	Provides a surrogate or placeholder for another object to control access to it.
-Behavioral	Chain of Responsibility	Passes a request along a chain of handlers, where each handler either processes the request or passes it to the next handler in the chain.
+
+Behavioral	
+Chain of Responsibility	Passes a request along a chain of handlers, where each handler either processes the request or passes it to the next handler in the chain.
+
 	Command	Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
 	Iterator	Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 	Mediator	Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly.
@@ -21,6 +27,7 @@ Behavioral	Chain of Responsibility	Passes a request along a chain of handlers, w
 	Strategy	Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from clients that use it.
 	Template Method	Defines the skeleton of an algorithm in a method, deferring some steps to subclasses, allowing subclasses to redefine certain steps without changing the algorithm's structure.
 	Visitor	Represents an operation to be performed on the elements of an object structure, allowing you to define a new operation without changing the classes of the elements on which it operates.
+
 Additional Notes:
 * Creational Patterns: Focus on object creation mechanisms, trying to create objects in a manner suitable to the situation.
 * Structural Patterns: Deal with object composition or how classes and objects are combined to form larger structures.
