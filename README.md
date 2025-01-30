@@ -1,6 +1,8 @@
 Category	Design Pattern	Description
+=============================
 
-Creational	
+Creational
+=============================
         Singleton	Ensures a class has only one instance and provides a global point of access to it.
 	Factory Method	Defines an interface for creating an object but lets subclasses alter the type of objects created.
 	Abstract Factory	Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
